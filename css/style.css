@@ -13,6 +13,9 @@
 .font-size16{
     font-size: 16px;
 }
+.font-size20{
+    font-size: 20px;
+}
 .line-height26{
     line-height: 26px;
 }
@@ -37,6 +40,10 @@
     transform: translate(-50%, -50%);
 }
 /* FINE COOMONS  */
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
 /* inizio header  */
 /* nav  */
 header nav{
@@ -49,7 +56,7 @@ header nav{
     z-index: 1000;
 }
 nav .box-logo{
-    width: 15%;
+    width: 10%;
     height: 100%;
     line-height: 80px;
     font-size: 18px;
@@ -63,12 +70,12 @@ nav .box-btn{
     height: 100%;
 }
 nav .box-liste{
-    width: 70%;
+    width: 75%;
     height: 100%;
     line-height: 80px;
 }
 nav .box-liste ul{
-    width: 40%;
+    width: 35%;
     text-align: center;
     list-style: none;
 }
@@ -93,32 +100,38 @@ nav a{
 .box-btn .btn-blue{
     color: white;
     background-color: #0061ff;
-    padding:10px 22px;
+    padding: 8px 22px;
 }
 /* jumbotron  */
 .jumbotron{
+    height: 850px;
     width: 100%;
+    padding-top: 120px;
     background-color: #b4d0e7;
+    position: relative;
+}
+.jumbotron .box-down{
+    margin-top: 30px;
 }
 .jumbotron h1{
-    font-size: 95px;
+    font-size: 85px;
     line-height: 108px;
-    width: 90%;
+    width: 84%;
     margin: auto;
-    letter-spacing: -2px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: -5px;
+}
+.jumbotron .box-image{
+    width: 65%;
 }
 .jumbotron .box-text{
     width: 30%;
-    padding-left: 5%;
-    padding-top: 1%;
+    padding-left: 8%;
 }
 .jumbotron .box-text p{
     margin-bottom: 30px;
 }
 .jumbotron .box-btn{
-    margin-bottom: 20px;
-    
+    margin-bottom: 30px;
 }
 .jumbotron .box-btn .btn-jumbo{
     text-decoration: none;
@@ -126,26 +139,26 @@ nav a{
 .jumbotron button{
     border: 0;
     background-color: transparent;
-    font-size: 32px;
+    font-size: 40px;
     display: block;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .jumbotron .box-image img{
     width: 100%;
 }
 /* fine header  */
+/* ANIMAZIONI  */
+.btn-blue:hover{
+    background-color: #3b85ff;
+}
+nav .border-bot:hover{
+    box-shadow: inset 0px -1px 0px 0px black;
+}
+/* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
-.debug .jumbotron{
-    height: 700px;
-    padding-top: 80px;
-    position: relative;
-}
-.debug .jumbotron .box-text{
-    height: 300px;
-}
+
 .debug .jumbotron .box-image{
-    width: 60%;
-    height: 400px;
+    width: 65%;
 }
 
 /* FINE DEBUG */
