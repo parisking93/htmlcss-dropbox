@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 /* INIZIO COMMONS  */
+.font-size18{
+    font-size: 18px;
+}
+.font-size16{
+    font-size: 16px;
+}
 .float-left{
     float: left;
 }
@@ -33,6 +39,8 @@ header nav{
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #ffffff;
+    z-index: 1000;
 }
 nav .box-logo{
     width: 15%;
@@ -51,21 +59,52 @@ nav .box-btn{
 nav .box-liste{
     width: 70%;
     height: 100%;
+    line-height: 80px;
+}
+nav .box-liste ul{
+    width: 40%;
+    text-align: center;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    
+}
+.box-liste .lista-sx li{
+    width: calc(100% / 3 - 5px);
+} 
+.box-liste .lista-dx li, .box-btn ul li{
+    width: calc(100% / 2 - 5px);
+} 
+.box-btn ul{
+    text-align: center;
+    line-height: 80px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.box-btn .btn-blue{
+    color: white;
+    background-color: #0061ff;
+    padding:10px 22px;
 }
 /* jumbotron  */
 .jumbotron{
     width: 100%;
     background-color: #b4d0e7;
 }
+.jumbotron h1{
+    font-size: 95px;
+    line-height: 108px;
+    width: 90%;
+    margin: auto;
+    letter-spacing: -2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
 /* fine header  */
 /* INIZIO DEBUG */
-.debug nav{
-    background-color: red;
-    z-index: 1000;
-}
-.debug .box-logo, .debug .box-btn{
-    background-color: blue;
-}
 .debug .jumbotron{
     height: 700px;
     padding-top: 80px;
