@@ -159,16 +159,28 @@ main .space{
     width: 100%;
     height: 100px;
 }
+.container-section{
+    width: 65%;
+    margin: auto;
+}
+section .colonna{
+    width: calc(100% / 3);
+    float: left;
+}
+.colonna .colon.ct{
+    margin: auto;
+}
+.colonna .colon.dx{
+    margin-left: 10%;
+}
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
     background-color: #3b85ff;
 }
+
 nav .border-bot:hover{
     box-shadow: inset 0px -1px 0px 0px black;
-}
-main section .title-section{
-    text-align: center;
 }
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
@@ -176,5 +188,29 @@ main section .title-section{
 main.debug{
     background-color: wheat;
 }
-
+.debug .colonna{
+    height: 1000px;
+    background-color: yellow;
+    
+}
+.debug .colon{
+    width: 90%;
+    height: 100%;
+    background-color: green;
+    border: 1px solid black;
+}
+.debug .cell-up{
+    height: 45px;
+    border-bottom: 1px solid black;
+}
+.debug .cell-up{
+    text-align: center;
+    line-height: 45px;
+}
+.debug .cell-down{
+    width: calc(100% - 60px);
+    height: calc(100% - 90px);
+    border: 1px solid black;
+    margin: 30px auto;
+}
 /* FINE DEBUG */
