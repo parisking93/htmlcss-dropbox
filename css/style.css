@@ -39,6 +39,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.padding-section{
+    padding-top: 120px;
+}
 /* FINE COOMONS  */
 body{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -62,7 +65,7 @@ nav .box-logo{
     font-size: 18px;
 }
 .box-logo svg{
-    height: 30px;
+    height: 25px;
 
 }
 nav .box-btn{
@@ -147,6 +150,12 @@ nav a{
     width: 100%;
 }
 /* fine header  */
+/* INIZIO MAIN  */
+main .space{
+    width: 100%;
+    height: 100px;
+}
+/* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
     background-color: #3b85ff;
@@ -157,8 +166,6 @@ nav .border-bot:hover{
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 
-.debug .jumbotron .box-image{
-    width: 65%;
-}
+
 
 /* FINE DEBUG */
