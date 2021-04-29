@@ -118,6 +118,10 @@ nav a{
 }
 .jumbotron .box-btn{
     margin-bottom: 20px;
+    
+}
+.jumbotron .box-btn .btn-jumbo{
+    text-decoration: none;
 }
 .jumbotron button{
     border: 0;
@@ -125,6 +129,9 @@ nav a{
     font-size: 32px;
     display: block;
     margin-top: 30px;
+}
+.jumbotron .box-image img{
+    width: 100%;
 }
 /* fine header  */
 /* INIZIO DEBUG */
@@ -139,7 +146,6 @@ nav a{
 .debug .jumbotron .box-image{
     width: 60%;
     height: 400px;
-    background-color: yellow;
 }
 
 /* FINE DEBUG */
