@@ -7,14 +7,14 @@
 .font-size18{
     font-size: 18px;
 }
-.font-size14{
-    font-size: 14px;
-}
 .font-size16{
     font-size: 16px;
 }
 .font-size20{
     font-size: 20px;
+}
+.font-size50{
+    font-size: 50px;
 }
 .line-height26{
     line-height: 26px;
@@ -38,6 +38,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.centerx{
+    left: 50%;
+    transform: translateX(-50%);
 }
 .padding-section{
     padding-top: 120px;
@@ -163,9 +167,14 @@ main .space{
 nav .border-bot:hover{
     box-shadow: inset 0px -1px 0px 0px black;
 }
+main section .title-section{
+    text-align: center;
+}
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 
-
+main.debug{
+    background-color: wheat;
+}
 
 /* FINE DEBUG */
