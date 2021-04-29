@@ -15,6 +15,15 @@
     display: table;
     clear: both;
 }
+.relative{
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* FINE COOMONS  */
 /* inizio header  */
 /* nav  */
@@ -25,7 +34,17 @@ header nav{
     top: 0;
     left: 0;
 }
-nav .box-logo, nav .box-btn{
+nav .box-logo{
+    width: 15%;
+    height: 100%;
+    line-height: 80px;
+    font-size: 18px;
+}
+.box-logo svg{
+    height: 30px;
+
+}
+nav .box-btn{
     width: 15%;
     height: 100%;
 }
