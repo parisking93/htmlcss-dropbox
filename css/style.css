@@ -16,9 +16,15 @@
 .font-size50{
     font-size: 50px;
 }
+.line-height21{
+    line-height: 21px;
+}
 .line-height26{
     line-height: 26px;
 }
+.font-grey{
+    color: #72808d;
+}   
 .float-left{
     float: left;
 }
@@ -65,6 +71,20 @@
 .container-section h2{
     margin-bottom: 50px;
 }
+section h3{
+    font-size: 28px;
+    line-height: 34px;
+}
+.userpiu{
+    list-style-image: url(../img/user+.svg);
+}
+.folder{
+    list-style-image: url(../img/folder.svg);
+}
+.facepiu{
+    list-style-image: url(../img/face+.svg);
+}
+
 /* FINE COOMONS  */
 /* inizio header  */
 /* nav  */
@@ -191,12 +211,27 @@ section .colonna{
     width: calc(100% / 3);
     float: left;
 }
+.colonna .colon{
+    width: 90%;
+}
 .colonna .colon.ct{
     margin: auto;
 }
 .colonna .colon.dx{
     margin-left: 10%;
 }
+.colonna .cell-up{
+    height: 45px;
+    border-bottom: 1px solid black;
+}
+.colon .cell-down-center ul{
+    list-style: none;
+}
+.colon ul li{
+    margin: 10px 0;
+    margin-left: 10.5%;
+}
+
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
@@ -209,23 +244,13 @@ nav .border-bot:hover{
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 
-main.debug{
-    background-color: wheat;
-}
 .debug .colonna{
     height: 1000px;
-    background-color: yellow;
-    
 }
 .debug .colon{
-    width: 90%;
     height: 100%;
-    background-color: green;
     border: 1px solid black;
-}
-.debug .cell-up{
-    height: 45px;
-    border-bottom: 1px solid black;
+    background-color: green;
 }
 .debug .cell-up{
     text-align: center;
@@ -238,7 +263,6 @@ main.debug{
     margin: 30px auto;
 }
 .debug .row{
-    background-color: yellow;
     padding-top: 50px;
 }
 .debug .row-inside{
