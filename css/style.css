@@ -61,6 +61,9 @@
 .padding-section{
     padding-top: 120px;
 }
+.font-center{
+    text-align: center;
+}
 .font-cond{
     font-family: 'Open Sans Condensed', sans-serif;
 
@@ -231,7 +234,11 @@ section .colonna{
     margin: 10px 0;
     margin-left: 10.5%;
 }
-
+.colon .cell-down-center .block-br{
+    display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
