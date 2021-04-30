@@ -43,6 +43,12 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.margin-left{
+    margin-left: 32%;
+}
+.margin-right{
+    margin-right: 20%;
+}
 .padding-section{
     padding-top: 120px;
 }
@@ -82,20 +88,31 @@ nav .box-liste{
     line-height: 80px;
 }
 nav .box-liste ul{
-    width: 35%;
     text-align: center;
     list-style: none;
+}
+nav .box-liste .lista-sx{
+    width: 43%;
+}
+nav .box-liste .lista-dx{
+    width: 47%;
 }
 nav ul li {
     display: inline-block;
     
 }
 .box-liste .lista-sx li{
-    width: calc(100% / 3 - 5px);
+    width: calc(100% / 4);
 } 
-.box-liste .lista-dx li, .box-btn ul li{
+.box-liste .lista-dx li{
+    width: calc(100% / 3);
+} 
+nav .border-bot{
+    display: inline-block   ;
+}
+.box-btn ul li{
     width: calc(100% / 2 - 5px);
-} 
+}
 .box-btn ul{
     text-align: center;
     line-height: 80px;
@@ -111,7 +128,7 @@ nav a{
 }
 /* jumbotron  */
 .jumbotron{
-    height: 850px;
+    height: 830px;
     width: 100%;
     padding-top: 120px;
     background-color: #b4d0e7;
@@ -121,14 +138,14 @@ nav a{
     margin-top: 30px;
 }
 .jumbotron h1{
-    font-size: 85px;
-    line-height: 108px;
+    font-size: 84px;
+    line-height: 110px;
     width: 84%;
     margin: auto;
     letter-spacing: -5px;
 }
 .jumbotron .box-image{
-    width: 65%;
+    width: 66%;
 }
 .jumbotron .box-text{
     width: 30%;
