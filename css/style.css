@@ -44,19 +44,22 @@
     transform: translateX(-50%);
 }
 .margin-left{
-    margin-left: 32%;
+    margin-left: 15%;
 }
 .margin-right{
-    margin-right: 20%;
+    margin-right: 2%;
 }
 .padding-section{
     padding-top: 120px;
 }
-/* FINE COOMONS  */
-body{
+.font-cond{
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
+.font-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+/* FINE COOMONS  */
 /* inizio header  */
 /* nav  */
 header nav{
@@ -102,10 +105,10 @@ nav ul li {
     
 }
 .box-liste .lista-sx li{
-    width: calc(100% / 4);
+    width: calc(100% / 3 - 2%);
 } 
 .box-liste .lista-dx li{
-    width: calc(100% / 3);
+    width: calc(100% / 2 - 8%);
 } 
 nav .border-bot{
     display: inline-block   ;
