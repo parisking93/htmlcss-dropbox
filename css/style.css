@@ -24,6 +24,14 @@
 }
 .font-grey{
     color: #72808d;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+    color: #0061ff;
 }   
 .float-left{
     float: left;
@@ -78,6 +86,12 @@ section h3{
     font-size: 28px;
     line-height: 34px;
 }
+.user{
+    list-style-image: url(../img/user.svg);
+}
+.pen{
+    list-style-image: url(../img/pen.svg);
+}
 .userpiu{
     list-style-image: url(../img/user+.svg);
 }
@@ -87,7 +101,10 @@ section h3{
 .facepiu{
     list-style-image: url(../img/face+.svg);
 }
-
+.vuoto{
+    height: 21px;
+    width: 100%;
+}
 /* FINE COOMONS  */
 /* inizio header  */
 /* nav  */
@@ -149,7 +166,7 @@ nav .border-bot{
     text-align: center;
     line-height: 80px;
 }
-nav a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -157,6 +174,7 @@ nav a{
     color: white;
     background-color: #0061ff;
     padding: 8px 22px;
+    text-decoration: none;
 }
 /* jumbotron  */
 .jumbotron{
@@ -187,9 +205,6 @@ nav a{
     width: 30%;
     padding-left: 8%;
 }
-.jumbotron .box-btn .btn-jumbo{
-    text-decoration: none;
-}
 .jumbotron button{
     border: 0;
     background-color: transparent;
@@ -207,7 +222,7 @@ main .space{
     height: 100px;
 }
 .container-section{
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 section .colonna{
@@ -226,12 +241,22 @@ section .colonna{
 .colonna .cell-up{
     height: 45px;
     border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+}
+.colonna .cell-down{
+    width: calc(100% - 60px);
+    height: calc(100% - 105px);
+    margin: 30px auto;
 }
 .colon .cell-down-center ul{
     list-style: none;
 }
 .colon ul li{
     margin: 10px 0;
+    
+}
+.colon .cell-down-center li{
     margin-left: 10.5%;
 }
 .colon .cell-down-center .block-br{
@@ -239,6 +264,22 @@ section .colonna{
     padding-bottom: 30px;
     border-bottom: 1px solid black;
 }
+.cell-down-bottom ul{
+    list-style: none; 
+    margin-left: 25px; 
+}
+.cell-down-bottom .check-list i{
+    margin-left: -25px;
+    margin-right: 0.3em;
+    color: #0463ff;
+}
+/* .cell-down-bottom li:before{
+    content: '\2713';
+    width: 1em;
+    color: #3b85ff;
+    display: inline-block;
+    margin-right: 0.5em;
+}  */
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
@@ -257,18 +298,12 @@ nav .border-bot:hover{
 .debug .colon{
     height: 100%;
     border: 1px solid black;
-    background-color: green;
 }
 .debug .cell-up{
     text-align: center;
     line-height: 45px;
 }
-.debug .cell-down{
-    width: calc(100% - 60px);
-    height: calc(100% - 105px);
-    border: 1px solid black;
-    margin: 30px auto;
-}
+
 .debug .row{
     padding-top: 50px;
 }
