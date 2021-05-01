@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 /* INIZIO COMMONS  */
+.font-size13{
+    font-size: 13px;
+}
 .font-size18{
     font-size: 18px;
 }
+
 .font-size16{
     font-size: 16px;
 }
@@ -24,6 +28,7 @@
 }
 .font-grey{
     color: #72808d;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -62,6 +67,9 @@ a{
 }
 .margin-right{
     margin-right: 2%;
+}
+.margin-bottom20{
+    margin-bottom: 20px;
 }
 .margin-bottom30{
     margin-bottom: 30px;
@@ -102,7 +110,7 @@ section h3{
     list-style-image: url(../img/face+.svg);
 }
 .vuoto{
-    height: 21px;
+    height: 26px;
     width: 100%;
 }
 /* FINE COOMONS  */
@@ -228,9 +236,12 @@ main .space{
 section .colonna{
     width: calc(100% / 3);
     float: left;
+    height: 870px;
 }
 .colonna .colon{
     width: 90%;
+    height: 100%; 
+    border: 1px solid black;
 }
 .colonna .colon.ct{
     margin: auto;
@@ -238,11 +249,14 @@ section .colonna{
 .colonna .colon.dx{
     margin-left: 10%;
 }
-.colonna .cell-up{
+section .cell-up{
     height: 45px;
     border-bottom: 1px solid black;
     text-align: center;
     line-height: 45px;
+}
+.colon .cell-down-center{
+    font-size: 14px;
 }
 .colonna .cell-down{
     width: calc(100% - 60px);
@@ -253,8 +267,7 @@ section .colonna{
     list-style: none;
 }
 .colon ul li{
-    margin: 10px 0;
-    
+    margin: 15px 0;
 }
 .colon .cell-down-center li{
     margin-left: 10.5%;
@@ -266,20 +279,14 @@ section .colonna{
 }
 .cell-down-bottom ul{
     list-style: none; 
-    margin-left: 25px; 
+    margin-left: 25px;
+    font-size: 14px; 
 }
 .cell-down-bottom .check-list i{
     margin-left: -25px;
     margin-right: 0.3em;
     color: #0463ff;
 }
-/* .cell-down-bottom li:before{
-    content: '\2713';
-    width: 1em;
-    color: #3b85ff;
-    display: inline-block;
-    margin-right: 0.5em;
-}  */
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
@@ -292,26 +299,27 @@ nav .border-bot:hover{
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 
-.debug .colonna{
-    height: 1000px;
-}
-.debug .colon{
-    height: 100%;
-    border: 1px solid black;
-}
-.debug .cell-up{
-    text-align: center;
-    line-height: 45px;
-}
-
 .debug .row{
     padding-top: 50px;
 }
 .debug .row-inside{
     width: 100%;
-    height: 220px;
     background-color: coral;
     margin: auto;
+    border: 1px solid black;
 }
+.debug .row-inside .cell-down{
+    height: calc(100% - 60px);
+    padding: 30px;
 
+}
+.debug .row-inside .box-sx{
+    width: 75%;
+}
+.debug .row-inside .box-dx{
+    width: 25%;
+}
+.debug .box-dx a{
+    line-height: 34px;
+}
 /* FINE DEBUG */
