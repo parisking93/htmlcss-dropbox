@@ -287,6 +287,28 @@ section .cell-up{
     margin-right: 0.3em;
     color: #0463ff;
 }
+.row{
+    padding-top: 50px;
+}
+.row-inside{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+.row-inside .cell-down{
+    height: calc(100% - 60px);
+    padding: 30px;
+
+}
+.row-inside .box-sx{
+    width: 75%;
+}
+.row-inside .box-dx{
+    width: 25%;
+}
+.box-dx a{
+    line-height: 34px;
+}
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
@@ -299,27 +321,39 @@ nav .border-bot:hover{
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 
-.debug .row{
+.row{
     padding-top: 50px;
 }
-.debug .row-inside{
+.row-inside{
     width: 100%;
-    background-color: coral;
     margin: auto;
     border: 1px solid black;
 }
-.debug .row-inside .cell-down{
+.row-inside .cell-down{
     height: calc(100% - 60px);
     padding: 30px;
 
 }
-.debug .row-inside .box-sx{
+.row-inside .box-sx{
     width: 75%;
 }
-.debug .row-inside .box-dx{
+.row-inside .box-dx{
     width: 25%;
 }
-.debug .box-dx a{
+.box-dx a{
     line-height: 34px;
 }
 /* FINE DEBUG */
+.debug .container-section{
+    height: 500px;
+}
+.debug .box-img{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+.debug .box-txt{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
