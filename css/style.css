@@ -43,6 +43,9 @@ a{
 .box-btn .btn2{
     padding: 5px 20px;
 }
+.underline-n{
+    text-decoration: underline;
+}
 .underline{
     text-decoration: underline;
     color: #0061ff;
@@ -249,7 +252,7 @@ main .space{
 .colonna .colon{
     width: 90%;
     height: 100%; 
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 }
 .colonna .colon.ct{
     margin: auto;
@@ -259,7 +262,7 @@ main .space{
 }
 section .cell-up{
     height: 45px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d0d3;
     text-align: center;
     line-height: 45px;
 }
@@ -283,7 +286,7 @@ section .cell-up{
 .colon .cell-down-center .block-br{
     display: inline-block;
     padding-bottom: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d0d3;
 }
 .cell-down-bottom ul{
     list-style: none; 
@@ -301,7 +304,7 @@ section .cell-up{
 .row-inside{
     width: 100%;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 }
 .row-inside .cell-down{
     height: calc(100% - 60px);
@@ -362,7 +365,6 @@ nav .border-bot:hover{
 .debug.section-operazioni .colonna{
     width: calc(100% / 3);
     float: left;
-    background-color: blue;
 }
 .debug .colon{
     height: auto;
@@ -372,5 +374,6 @@ nav .border-bot:hover{
 .debug .box-image img{
     width: 100%;
 }
+
 /* FINE DEBUG */
 
