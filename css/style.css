@@ -141,59 +141,31 @@ header nav{
     background-color: #ffffff;
     z-index: 1000;
 }
+nav li{
+    display: inline-block;
+}
 nav .box-logo{
     width: 10%;
     height: 100%;
-    line-height: 80px;
     font-size: 18px;
 }
 .box-logo svg{
     height: 25px;
-
-}
-nav .box-btn{
-    width: 15%;
-    height: 100%;
+    vertical-align: middle;
 }
 nav .box-liste{
-    width: 75%;
-    height: 100%;
     line-height: 80px;
 }
 nav .box-liste ul{
     text-align: center;
     list-style: none;
 }
-nav .box-liste .lista-sx{
-    width: 43%;
+ nav .box-liste .lista-sx li{
+    margin:0 15px;
 }
-nav .box-liste .lista-dx{
-    width: 47%;
-}
-nav ul li {
-    display: inline-block;
-    
-}
-.box-liste .lista-sx li{
-    width: calc(100% / 3 - 2%);
+nav .box-liste .lista-dx li{
+    margin:0 15px; 
 } 
-.box-liste .lista-dx li{
-    width: calc(100% / 2 - 8%);
-} 
-nav .border-bot{
-    display: inline-block   ;
-}
-.box-btn ul li{
-    width: calc(100% / 2 - 5px);
-}
-.box-btn ul{
-    text-align: center;
-    line-height: 80px;
-}
-.box-btn .btn2.blue{
-    color: white;
-    background-color: #0061ff;
-}
 /* jumbotron  */
 .jumbotron{
     width: 100%;
@@ -223,7 +195,7 @@ nav .border-bot{
     width: 30%;
     padding-left: 8%;
 }
-.box-btn .btn.blue{
+.box-btn .blue{
     color: white;
     background-color: #0061ff;
 }
@@ -388,7 +360,7 @@ section .cell-up{
 /* fine sezione patner */
 /* FINE MAIN  */
 /* ANIMAZIONI  */
-.btn-blue:hover{
+.box-btn .blue:hover{
     background-color: #3b85ff;
 }
 
@@ -436,7 +408,7 @@ nav .border-bot:hover{
 li:hover i{
     transform: rotate(-180deg); 
 }
-li:hover {
+.section-domande li:hover {
     cursor: pointer;
 }
 
