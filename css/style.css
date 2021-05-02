@@ -7,6 +7,9 @@
 .font-size13{
     font-size: 13px;
 }
+.font-size15{
+    font-size: 15px;
+}
 .font-size18{
     font-size: 18px;
 }
@@ -33,6 +36,12 @@
 a{
     text-decoration: none;
     color: black;
+}
+.box-btn .btn{
+    padding: 10px 22px;
+}
+.box-btn .btn2{
+    padding: 5px 20px;
 }
 .underline{
     text-decoration: underline;
@@ -174,15 +183,9 @@ nav .border-bot{
     text-align: center;
     line-height: 80px;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-.box-btn .btn-blue{
+.box-btn .btn2.blue{
     color: white;
     background-color: #0061ff;
-    padding: 8px 22px;
-    text-decoration: none;
 }
 /* jumbotron  */
 .jumbotron{
@@ -213,6 +216,10 @@ a{
     width: 30%;
     padding-left: 8%;
 }
+.box-btn .btn.blue{
+    color: white;
+    background-color: #0061ff;
+}
 .jumbotron button{
     border: 0;
     background-color: transparent;
@@ -230,7 +237,7 @@ main .space{
     height: 100px;
 }
 .container-section{
-    width: 70%;
+    width: 72%;
     margin: auto;
 }
 section .colonna{
@@ -344,16 +351,27 @@ nav .border-bot:hover{
     line-height: 34px;
 }
 /* FINE DEBUG */
-.debug .container-section{
-    height: 500px;
-}
 .debug .box-img{
-    height: 100%;
-    width: 50%;
-    background-color: blue;
+    width: 55%;
 }
 .debug .box-txt{
-    height: 100%;
-    width: 50%;
-    background-color: yellow;
+    height: 487px;
+    width: 45%;
+    position: relative;
+}
+.debug .box-img img{
+    width: 100%;
+}
+.debug .small-box{ 
+    width: 80%;                                                                 
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%,-55%);
+}
+.debug .btn.white{
+    border: 1px solid black;
+}
+.btn.white:hover{
+    background-color: #f5f5f5;
 }
