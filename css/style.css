@@ -34,7 +34,7 @@
 }
 .font-grey{
     color: #72808d;
-    font-size: 14px;
+    font-size: 13px;
 }
 a{
     text-decoration: none;
@@ -335,10 +335,7 @@ section .cell-up{
 }
 /* fine sezione operazioni  */
 /* inizio sezione n-utenti  */
-.debug .blocchi-team{
-    height: 500px;
-    background-color: blue;
-}
+
 .section-n-utenti h2.rosso{
     margin-bottom: 0px;
     color: #61082b;
@@ -357,8 +354,90 @@ section .cell-up{
     background-color: #f5f5f5;
 }
 /* fine sezione n-utenti  */
-/* fine sezione patner */
+/* inizio sezione-domande */
+.section-domande h3{
+    font-size: 36px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.section-domande .text, .section-domande .box-arrow-up{
+    display: inline-block;
+}
+.section-domande .box-arrow-up{
+    width: 4%;
+    vertical-align: top;
+    margin-left: 25%;
+}
+.section-domande .text{
+    width: 70%;
+}
+.section-domande .box-arrow-up i{
+    transition: all 0.3s linear;
+}
+.section-domande li{
+    border-top: 1px solid #d0d0d3;
+    list-style: none;
+    padding: 30px 0;
+}
+.section-domande ul li:last-child{
+    border-bottom: 1px solid #d0d0d3;
+}
+.section-domande .container-section{
+    padding-bottom: 120px;
+}
+
+.section-domande li:hover i{
+    transform: rotate(-180deg); 
+}
+.section-domande li:hover {
+    cursor: pointer;
+}
+/* fine sezione-domande  */
 /* FINE MAIN  */
+/* INIZIO FOOTER  */
+.liste-footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 120px;
+}
+.liste-footer ul{
+    width: calc(100% / 5 - 20px);
+    list-style: none;
+    margin-right: 20px;
+}
+.liste-footer ul li{
+    margin: 10px 0;
+}
+.liste-footer ul li a{
+    line-height: 13px;
+    color: #ffffff;
+}
+.liste-footer .box-lingua{
+    margin-top: 100px;
+    border-top: 1px solid white;
+    padding:30px 0;
+    display: inline-block;
+}
+.liste-footer .lingua{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+
+}
+.liste-footer .box-lingua i{
+    line-height: 13px;
+    padding: 0 1px;
+
+}
+.liste-footer .box-lingua .mondo{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.liste-footer .box-lingua .arrow{
+    vertical-align: -moz-middle-with-baseline;
+    vertical-align: -webkit-baseline-middle;
+    color: #41464b;
+}
+/* FINE FOOTER  */
 /* ANIMAZIONI  */
 .box-btn .blue:hover{
     background-color: #3b85ff;
@@ -367,50 +446,22 @@ section .cell-up{
 nav .border-bot:hover{
     box-shadow: inset 0px -1px 0px 0px black;
 }
-/* FINE ANIMAZIONI  */
-/* INIZIO DEBUG */
-.debug h3{
-    font-size: 36px;
-    line-height: 40px;
-    padding-bottom: 20px;
-}
-.debug .text, .debug .box-arrow-up{
-    display: inline-block;
-}
-.debug .box-arrow-up{
-    width: 4%;
-    vertical-align: top;
-    margin-left: 25%;
-}
-.debug .text{
-    width: 70%;
-}
-.debug .box-arrow-up i{
-    transition: all 0.3s linear;
-}
-/* .fas.fa-chevron-down{
-    color: white;
-    z-index: -1;
-} */
-
-.debug li{
-    border-top: 1px solid #d0d0d3;
-    list-style: none;
-    padding: 30px 0;
-}
-.debug ul li:last-child{
-    border-bottom: 1px solid #d0d0d3;
-}
-.debug.section-domande .container-section{
-    padding-bottom: 120px;
-}
-
-li:hover i{
+.section-domande li:hover i{
     transform: rotate(-180deg); 
 }
 .section-domande li:hover {
     cursor: pointer;
 }
+.liste-footer ul li a:hover{
+    text-decoration: underline;
+}
+/* FINE ANIMAZIONI  */
+/* INIZIO DEBUG */
+.debug .blocchi-team{
+    height: 500px;
+    background-color: blue;
+}
 
 /* FINE DEBUG */
+
 
