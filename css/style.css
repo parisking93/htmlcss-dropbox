@@ -98,6 +98,7 @@ a{
 }
 .container-section h2{
     margin-bottom: 50px;
+    letter-spacing: -2px;
 }
 section h3{
     font-size: 28px;
@@ -240,7 +241,7 @@ main .space{
     width: 72%;
     margin: auto;
 }
-section .colonna{
+.section-business .colonna{
     width: calc(100% / 3);
     float: left;
     height: 870px;
@@ -316,6 +317,37 @@ section .cell-up{
 .box-dx a{
     line-height: 34px;
 }
+/* inizio sezione-patner  */
+.section-patner .box-img{
+    width: 55%;
+}
+.section-patner .box-txt{
+    height: 487px;
+    width: 45%;
+    position: relative;
+}
+.section-patner .box-img img{
+    width: 100%;
+}
+.section-patner .small-box{ 
+    width: 80%;                                                                 
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%,-55%);
+}
+.section-patner .btn.white{
+    border: 1px solid black;
+}
+.btn.white:hover{
+    background-color: #f5f5f5;
+}
+/* inizio sezione operazioni  */
+ .colonna{
+    width: calc(100% / 3);
+    float: left;
+}
+/* fine sezione patner */
 /* FINE MAIN  */
 /* ANIMAZIONI  */
 .btn-blue:hover{
@@ -327,51 +359,18 @@ nav .border-bot:hover{
 }
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
-
-.row{
-    padding-top: 50px;
+.debug.section-operazioni .colonna{
+    width: calc(100% / 3);
+    float: left;
+    background-color: blue;
 }
-.row-inside{
+.debug .colon{
+    height: auto;
+    border:none;
+}
+
+.debug .box-image img{
     width: 100%;
-    margin: auto;
-    border: 1px solid black;
-}
-.row-inside .cell-down{
-    height: calc(100% - 60px);
-    padding: 30px;
-
-}
-.row-inside .box-sx{
-    width: 75%;
-}
-.row-inside .box-dx{
-    width: 25%;
-}
-.box-dx a{
-    line-height: 34px;
 }
 /* FINE DEBUG */
-.debug .box-img{
-    width: 55%;
-}
-.debug .box-txt{
-    height: 487px;
-    width: 45%;
-    position: relative;
-}
-.debug .box-img img{
-    width: 100%;
-}
-.debug .small-box{ 
-    width: 80%;                                                                 
-    position: absolute;
-    top: 50%;
-    left: 58%;
-    transform: translate(-50%,-55%);
-}
-.debug .btn.white{
-    border: 1px solid black;
-}
-.btn.white:hover{
-    background-color: #f5f5f5;
-}
+
