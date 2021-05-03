@@ -483,6 +483,7 @@ nav .border-bot:hover{
     width: 40vw;
     height: 100%;
     background-color: #f5f5f5;
+    padding: 4%;
 }
 .debug .boxs{
     width: 100%;
@@ -516,7 +517,26 @@ nav .border-bot:hover{
 .debug .boxs.down.dx .square.bright{
     background-color: #ffd830;
 }
-
+.debug .boxs img{
+    width: 60%;
+    filter: invert(1);  
+}
+.debug .boxs img.due{
+    height: 30%;
+}
+.debug .middle img{
+    filter: invert(0);
+    width: 60%;
+    height: 40%;
+}
+.debug .barra{
+    border-top: 1px solid #d0d0d3;
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
 /* FINE DEBUG */
 
 
