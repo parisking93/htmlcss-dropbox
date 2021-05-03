@@ -84,6 +84,9 @@ a{
 .margin-right{
     margin-right: 2%;
 }
+.margin-bottom10{
+    margin-bottom: 10px;
+}
 .margin-bottom20{
     margin-bottom: 20px;
 }
@@ -95,6 +98,9 @@ a{
 }
 .font-center{
     text-align: center;
+}
+.font-left{
+    text-align: left;
 }
 .font-cond{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -140,6 +146,13 @@ section h4{
     font-size: 17px;
     height: 0;
     transition: all 0.5s linear;
+}
+
+.bord-radius5{
+    border-radius: 5px;
+}
+.bord-radius10{
+border-radius: 10px;
 }
 /* FINE COOMONS  */
 /* inizio header  */
@@ -479,13 +492,80 @@ section .cell-up{
     padding-bottom: 120px;
 }
 
-.section-domande li:hover i{
-    transform: rotate(-180deg); 
-}
-.section-domande li:hover {
-    cursor: pointer;
-}
 /* fine sezione-domande  */
+/* chat angolo basso a destra  */
+.box-chat{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    background-color: #0d2481;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.box-chat .box-img-chat{
+    line-height: 50px;
+}
+.chat-window{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-75%);
+    box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.4);
+    cursor: auto;
+    display: none;
+}
+.header-chat{
+    height: 10%;
+    width: 100%;
+    background-color: #0d2481;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.box-text-chat{
+    height: 90%;
+    width: 100%;
+    padding: 20px 10px;
+    color: black;
+}
+.header-chat > *{
+    width: calc(100% / 3);
+}
+.header-chat .box-chiusura{
+    text-align: right;
+}
+textarea.email, textarea.testo{
+    resize: none;
+    line-height: 21px;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.2) inset;
+}
+.box-text-chat .fas.fa-asterisk{
+    font-size: 5px;
+    vertical-align: super;
+    color: red;
+}
+.box-chat button{
+    padding: 5px;
+    margin: 0px 20px 10px 0px;
+    background-color: #0d2481;
+    color: white;
+    border-color: #0d2481;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.description, .help, .chiudi{
+    margin-left: 8px;
+}
+/* chat angolo basso a destra fine  */
 /* FINE MAIN  */
 /* INIZIO FOOTER  */
 .liste-footer{
@@ -562,11 +642,25 @@ nav .border-bot:hover{
     height: 100%;
     padding-top: 15px;
 }
+.section-domande li:hover i{
+    transform: rotate(-180deg); 
+}
+.section-domande li:hover {
+    cursor: pointer;
+}
+.box-chat:hover{
+    cursor: pointer;
+}
+.box-chat:hover .chat-window{
+    display: block;
+}
 .liste-footer ul li a:hover{
     text-decoration: underline;
 }
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
+
+
 
 /* FINE DEBUG */
 
