@@ -368,11 +368,11 @@ section .cell-up{
     vertical-align: top;
     margin-left: 25%;
 }
-.section-domande .text{
+.section-domande .text, .section-domande .box-hidden{
     width: 70%;
 }
 .section-domande .box-arrow-up i{
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
 }
 .section-domande li{
     border-top: 1px solid #d0d0d3;
@@ -452,6 +452,11 @@ nav .border-bot:hover{
 .section-domande li:hover {
     cursor: pointer;
 }
+.section-domande li:hover .box-hidden{
+    color: #687885;
+    height: 100%;
+    padding-top: 15px;
+}
 .liste-footer ul li a:hover{
     text-decoration: underline;
 }
@@ -460,6 +465,16 @@ nav .border-bot:hover{
 .debug .blocchi-team{
     height: 500px;
     background-color: blue;
+}
+
+.debug .box-hidden {
+    padding-top: 0px;
+    color: transparent;
+    font-size: 17px;
+    height: 0;
+    transition: all 0.9s linear;
+
+    
 }
 
 /* FINE DEBUG */
