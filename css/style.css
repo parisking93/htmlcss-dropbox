@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 /* INIZIO COMMONS  */
+/* cyrillic-ext */
 .font-size13{
     font-size: 13px;
 }
@@ -130,7 +131,7 @@ section h4{
     float: left;
 }
 .vuoto{
-    height: 26px;
+    height: 21px;
     width: 100%;
 }
 .box-hidden {
@@ -231,11 +232,7 @@ main .space{
     margin: auto;
     min-width: 800px;
 }
-.section-business .colonna{
-    height: 870px;
-}
 .colonna .colon{
-    min-height: 100%;
     width: 90%; 
     border: 1px solid #d0d0d3;
 }
@@ -253,14 +250,15 @@ section .cell-up{
 }
 .colon .cell-down-center{
     font-size: 14px;
+    
 }
 .colonna .cell-down{
     width: calc(100% - 60px);
-    height: calc(100% - 105px);
     margin: 30px auto;
 }
 .colon .cell-down-center ul{
     list-style: none;
+    height: 158.5px;
 }
 .colon ul li{
     margin: 15px 0;
@@ -274,6 +272,7 @@ section .cell-up{
     border-bottom: 1px solid #d0d0d3;
 }
 .cell-down-bottom ul{
+    height: 250px;
     list-style: none; 
     margin-left: 25px;
     font-size: 14px; 
