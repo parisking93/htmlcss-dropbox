@@ -125,9 +125,20 @@ section h4{
 .facepiu{
     list-style-image: url(../img/face+.svg);
 }
+.colonna{
+    width: calc(100% / 3);
+    float: left;
+}
 .vuoto{
     height: 26px;
     width: 100%;
+}
+.box-hidden {
+    padding-top: 0px;
+    color: transparent;
+    font-size: 17px;
+    height: 0;
+    transition: all 0.5s linear;
 }
 /* FINE COOMONS  */
 /* inizio header  */
@@ -218,15 +229,14 @@ main .space{
 .container-section{
     width: 72%;
     margin: auto;
+    min-width: 800px;
 }
 .section-business .colonna{
-    width: calc(100% / 3);
-    float: left;
     height: 870px;
 }
 .colonna .colon{
-    width: 90%;
-    height: 100%; 
+    min-height: 100%;
+    width: 90%; 
     border: 1px solid #d0d0d3;
 }
 .colonna .colon.ct{
@@ -463,18 +473,52 @@ nav .border-bot:hover{
 /* FINE ANIMAZIONI  */
 /* INIZIO DEBUG */
 .debug .blocchi-team{
-    height: 500px;
+    height: 620px;
     background-color: blue;
+    background-color: tomato;
 }
-
-.debug .box-hidden {
-    padding-top: 0px;
-    color: transparent;
-    font-size: 17px;
-    height: 0;
-    transition: all 0.9s linear;
-
-    
+.debug .blocchi-team .box.side{
+    width: calc(60vw / 2);
+    height: 100%;
+}
+.debug .blocchi-team .box.middle{
+    width: 40vw;
+    height: 100%;
+    background-color: yellow;
+}
+.debug .boxs{
+    width: 100%;
+    height: 50%;
+    background-color: violet;
+    z-index: 10;
+}
+.debug .boxs .square{
+    width: 50%;
+    height: 100%;
+}
+.debug .boxs.up.sx .square.bleft{
+    background-color: #a2d39b;
+}
+.debug .boxs.up.sx .square.bright{
+    background-color: #61082b;
+}
+.debug .boxs.down.sx .square.bleft{
+    background-color: #0093ce;
+}
+.debug .boxs.down.sx .square.bright{
+    background-color: #ff1c1c;
+}
+.debug .boxs.up.dx .square.bleft{
+    background-color: #d5001f;
+}
+.debug .boxs.up.dx .square.bright{
+    background-color: #b4d0e7;
+}
+.debug .boxs.down.dx .square.bleft{
+    background-color: #0d2481;
+}
+.debug .boxs.down.dx .square.bright{
+    background-color: #ffd830;
 }
 
 /* FINE DEBUG */
