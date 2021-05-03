@@ -507,7 +507,7 @@ section .cell-up{
     border-radius: 50%;
 }
 .box-chat .box-img-chat{
-    line-height: 50px;
+    line-height: 45px;
 }
 .chat-window{
     height: 400px;
