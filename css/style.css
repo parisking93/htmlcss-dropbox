@@ -172,12 +172,32 @@ nav .box-liste ul{
     text-align: center;
     list-style: none;
 }
- nav .box-liste .lista-sx li{
+ nav .box-liste .lista-sx li.visible{
     margin:0 15px;
 }
-nav .box-liste .lista-dx li{
+nav .box-liste .lista-dx li.visible{
     margin:0 15px; 
 } 
+nav .box-hidden ul{
+    width: 300%;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    z-index: 1000;
+    background-color: white;
+    text-align: left;
+    padding: 10px 0;
+    display: none;
+}
+
+nav .box-hidden ul li a{
+    padding: 10px 10px;
+    display: block;
+}
+nav .box-hidden ul li{
+    width: 100%;
+    margin: 0;
+}
 /* jumbotron  */
 .jumbotron{
     width: 100%;
@@ -515,7 +535,12 @@ section .cell-up{
 .box-btn .blue:hover{
     background-color: #3b85ff;
 }
-
+nav li:hover .box-hidden ul{
+    display: block;
+}
+nav .box-hidden ul li:hover{
+    background-color: #f5f5f5;
+}
 nav .border-bot:hover{
     box-shadow: inset 0px -1px 0px 0px black;
 }

@@ -17,10 +17,10 @@
     <!-- intestazione  -->
     <header>
 
-        <nav class="float font-sans">
+        <nav class="float font-sans debug">
             <div class="box-liste float font-size18">
                 <ul class="float-left lista-sx">
-                    <li>
+                    <li class="visible">
                         <!-- logo  -->
                         <div class="box-logo">
                             <a href="#">
@@ -71,15 +71,23 @@
                         </div>
                         <!-- fine logo  -->
                     </li>
-                    <li class="border-bot"><a href="#">Perchè Dropbox?</a></li>
-                    <li class="border-bot"><a href="#">Funzioni</a></li>
-                    <li class="border-bot"><a href="#">Piani e prezzi</a></li>
+                    <li class="border-bot visible"><a href="#">Perchè Dropbox?</a></li>
+                    <li class="border-bot visible"><a href="#">Funzioni</a></li>
+                    <li class="border-bot visible"><a href="#">Piani e prezzi</a></li>
                 </ul>
                 <ul class="float-right lista-dx">
-                    <li class="border-bot"><a href="#">Supporto</a></li>
-                    <li class="border-bot"><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li class="border-bot"><a href="#">Accedi</a></li>
-                    <li> 
+                    <li class="border-bot visible">
+                        <a href="#">Supporto</a>
+                        <div class="box-hidden relative">
+                            <ul class="line-height21 font-size13">
+                                <li><a href="#">Centro assistenza</a></li>
+                                <li><a href="#">Forum della Community</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-bot visible"><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li class="border-bot visible"><a href="#">Accedi</a></li>
+                    <li class="visible"> 
                         <!-- bottone di destra  -->
                         <div class="box-btn">
                             <a class="btn2 blue font-size16" href="#">Inizia</a>
@@ -113,7 +121,6 @@
             </div>
     
         </div>
-
     </header>
     <!-- fine intestazione -->
     <!-- corpo della pagina -->
@@ -461,7 +468,7 @@
         </section>
         <!-- fine terza  -->
          <!-- quarta sezione -->
-         <section class="section-n-utenti padding-section font-sans debug">
+         <section class="section-n-utenti padding-section font-sans">
              <div class="container-section padding-container margin-bottom20">
                 <h2 class="title-section font-size50 line-height50" style="margin-bottom : 30px">Più di 500.000 team <br> utilizzano Dropbox Business</h2>
                 <a href="#" class="underline font-size18">Scopri di più sui nostri clienti</a>
@@ -543,7 +550,7 @@
         </section>
         <!-- fine quarta sezione  -->
          <!-- quinta sezione -->
-         <section class="section-domande padding-section font-sans debug">
+         <section class="section-domande padding-section font-sans">
              <div class="container-section">
                 <h3 class="margin-bottom30"> Domande frequenti</h3>
                 <ul class="font-size18 line-height26">
@@ -590,7 +597,7 @@
     </main>
     <!-- fine corpo della pagina  -->
     <footer>
-        <section class="liste-footer debug padding-section font-sans">
+        <section class="liste-footer padding-section font-sans">
             <div class="container-section">
                 <div class="container-liste float">
                     <!-- lista dropbox  -->
