@@ -182,15 +182,11 @@ nav .box-liste{
     line-height: 80px;
 }
 nav .box-liste ul{
-    text-align: center;
     list-style: none;
 }
- nav .box-liste .lista-sx li.visible{
+ nav .box-liste li.visible{
     margin:0 15px;
 }
-nav .box-liste .lista-dx li.visible{
-    margin:0 15px; 
-} 
 nav .box-hidden ul{
     width: 300%;
     position: absolute;
@@ -368,7 +364,6 @@ section .cell-up{
     float: left;
 }
 .section-operazioni .colon{
-    height: auto;
     border:none;
 }
 
@@ -562,7 +557,6 @@ textarea.email, textarea.testo{
     background-color: #0d2481;
     color: white;
     border-color: #0d2481;
-    border-radius: 10px;
     cursor: pointer;
     display: none;
 } 
