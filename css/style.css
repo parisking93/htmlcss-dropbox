@@ -639,7 +639,7 @@ nav .border-bot:hover{
 .section-domande li:hover i{
     transform: rotate(-180deg); 
 }
-.section-domande li:hover, .box-chat:hover, .chiudi:hover, .min-chat:hover{
+nav li.border-bot:hover, .section-domande li:hover, .box-chat:hover, .chiudi:hover, .min-chat:hover{
     cursor: pointer;
 }
 .box-chat:hover .chat-window{
