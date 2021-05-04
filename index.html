@@ -78,12 +78,14 @@
                 <ul class="float-right lista-dx">
                     <li class="border-bot visible">
                         <a href="#">Supporto</a>
+                        <!-- div nascosto sotto al link nella nav  -->
                         <div class="box-hidden relative">
                             <ul class="line-height21 font-size13">
                                 <li><a href="#">Centro assistenza</a></li>
                                 <li><a href="#">Forum della Community</a></li>
                             </ul>
                         </div>
+                        <!-- chiusura div nascosto sotto il link  -->
                     </li>
                     <li class="border-bot visible"><a href="#">Contatta l'ufficio vendite</a></li>
                     <li class="border-bot visible"><a href="#">Accedi</a></li>
@@ -601,7 +603,7 @@
                 <i class="fas fa-comments"></i>
             </div>
             <!-- fine icona chat inizio chat nascosta -->
-            <div class="chat-window font-sans">
+            <div class="chat-window font-sans bord-radius10">
                 
                 <form action="#" class="float">  
                     <!-- header blu della chat  -->
@@ -611,19 +613,19 @@
                         </div>
                         <h5 class=" title-chat float-left font-center">Live Chat</h5>
                         <div class="box-chiusura float-left">
-                            <i class="fas fa-minus"></i>
+                            <i class="min-chat fas fa-minus"></i>
                             <i class="chiudi fas fa-times"></i>
                         </div>
                     </header>
                     <!-- fine header blu della chat inizio textarea user -->
                     <div class="box-text-chat font-center">
                         <div class="font-size13 description font-left">Email</div>
-                        <textarea class="email margin-bottom20 bord-radius5" name="email" id="" cols="33" rows="1" placeholder="Inserisci la tua email..."></textarea>
+                        <textarea class="email margin-bottom20 bord-radius5" name="email" id="" cols="33" rows="1" placeholder="Inserisci la tua email..." required></textarea>
                         <div class="help font-size13 line-height21 font-left">Come posso aiutarti?  <i class="fas fa-asterisk"></i></div>
-                        <textarea class="testo bord-radius10" name="email" id="" cols="33" rows="7" placeholder="Inserisci il tuo Messaggio...."></textarea>
+                        <textarea class="testo bord-radius10" name="email" id="" cols="33" rows="7" placeholder="Inserisci il tuo Messaggio...." required></textarea>
                     </div>
                     <!-- fine della textarea e inizio button  -->
-                    <button class="float-right">Start Chat</button>
+                    <button class="float-right button-chat">Start Chat</button>
                     <!-- fine button e chiuso del form  -->
                 </form>
 

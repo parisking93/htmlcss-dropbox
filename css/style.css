@@ -510,7 +510,7 @@ section .cell-up{
     line-height: 45px;
 }
 .chat-window{
-    height: 400px;
+    height: 0;
     width: 300px;
     position: absolute;
     background-color: white;
@@ -519,7 +519,7 @@ section .cell-up{
     transform: translateX(-75%);
     box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.4);
     cursor: auto;
-    display: none;
+    transition: all 0.8s ease-in-out;
 }
 .header-chat{
     height: 10%;
@@ -527,15 +527,18 @@ section .cell-up{
     background-color: #0d2481;
     line-height: 40px;
     padding: 0 15px;
+    border-radius: 10px 10px 0 0;
 }
 .box-text-chat{
     height: 90%;
     width: 100%;
     padding: 20px 10px;
     color: black;
+    display: none;
 }
 .header-chat > *{
     width: calc(100% / 3);
+    display: none;
 }
 .header-chat .box-chiusura{
     text-align: right;
@@ -561,6 +564,7 @@ textarea.email, textarea.testo{
     border-color: #0d2481;
     border-radius: 10px;
     cursor: pointer;
+    display: none;
 } 
 .description, .help, .chiudi{
     margin-left: 8px;
@@ -634,9 +638,6 @@ nav .border-bot:hover{
 .section-domande li:hover i{
     transform: rotate(-180deg); 
 }
-.section-domande li:hover {
-    cursor: pointer;
-}
 .section-domande li:hover .box-hidden{
     color: #687885;
     height: 100%;
@@ -645,13 +646,13 @@ nav .border-bot:hover{
 .section-domande li:hover i{
     transform: rotate(-180deg); 
 }
-.section-domande li:hover {
-    cursor: pointer;
-}
-.box-chat:hover{
+.section-domande li:hover, .box-chat:hover, .chiudi:hover, .min-chat:hover{
     cursor: pointer;
 }
 .box-chat:hover .chat-window{
+    height: 400px;
+}
+.box-chat:hover .box-text-chat, .box-chat:hover .button-chat, .box-chat:hover .header-chat>*{
     display: block;
 }
 .liste-footer ul li a:hover{
